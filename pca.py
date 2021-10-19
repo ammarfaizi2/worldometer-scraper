@@ -120,7 +120,7 @@ df_std  = (df - df.mean()) / (df.std())
 
 # Covariance Matrix Population
 df_cov = np.cov(df_std.T, bias = 1)
-# print(df_cov)
+print(df_cov)
 # sys.exit()
 
 # Covariance Matrix Sample
